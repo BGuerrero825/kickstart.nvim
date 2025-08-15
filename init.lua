@@ -101,7 +101,7 @@ vim.g.have_nerd_font = false
 
 -- Make line numbers default
 vim.opt.number = true
-vim.opt.relativenumber = true
+-- vim.opt.relativenumber = true
 -- You can also add relative line numbers, to help with jumping.
 --  Experiment for yourself to see if you like it!
 -- vim.opt.relativenumber = true
@@ -122,6 +122,12 @@ end)
 
 -- Enable break indent
 vim.opt.breakindent = true
+
+-- tab and shift indent settings
+vim.opt.autoindent = true
+vim.opt.expandtab = true
+vim.opt.shiftwidth = 2
+vim.opt.tabstop = 2
 
 -- Save undo history
 vim.opt.undofile = true
